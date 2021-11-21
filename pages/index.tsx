@@ -1,8 +1,3 @@
-import type { NextPage } from "next";
-import { MobileNavbar } from "../components/navbar-ui/mobile-navbar";
+import { HomeModule } from "@/modules/home/home";
 
-const Home: NextPage = () => {
-  return <MobileNavbar />;
-};
-
-export default Home;
+export default HomeModule;

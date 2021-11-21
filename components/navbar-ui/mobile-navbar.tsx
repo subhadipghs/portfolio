@@ -1,31 +1,20 @@
 import React from "react";
 import { Box, Flex, Grid, GridItem } from "@chakra-ui/layout";
-import { motion } from "framer-motion";
 import { RoundedImage } from "../image/rounded";
+import { FaIcon } from "../icon/fa-icon";
 
 export function MobileNavbar() {
-  return (
-    <motion.div
-      animate={{
-        y: [0, 40, 0],
-      }}
-    >
-      <Navbar />
-    </motion.div>
-  );
+  return <Navbar />;
 }
 
 function Navbar() {
   return (
     <Box
-      minH="15"
+      maxH="10vh"
       p={3}
-      bg="#2D3047"
-      boxShadow="md"
-      sx={{
-        fontFamily: "Inter",
-        position: "sticky",
-      }}
+      bg="primary"
+      boxShadow="xs"
+      position="sticky"
       minWidth="100%"
       display="flex"
       justifyContent="space-between"
@@ -42,16 +31,10 @@ function Navbar() {
       >
         <Grid gap={4}>
           <GridItem colSpan={2}>
-            <i
-              className="fas fa-bars"
-              style={{ fontSize: "1.2rem", color: "#FFDBB5" }}
-            ></i>
+            <FaIcon name="bars" fs="1.2rem" color="secondary" />
           </GridItem>
           <GridItem colStart={4} colEnd={6}>
-            <i
-              className="fas fa-moon"
-              style={{ fontSize: "1.2rem", color: "#FFDBB5" }}
-            ></i>
+            <FaIcon name="moon" fs="1.2rem" color="secondary" />
           </GridItem>
         </Grid>
       </Box>

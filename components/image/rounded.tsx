@@ -7,8 +7,8 @@ export function RoundedImage(props: Props) {
     // eslint-disable-next-line jsx-a11y/alt-text
     <Image
       sx={{
-        width: "13%",
-        height: "auto",
+        width: props.width ?? "13%",
+        height: props.height ?? "auto",
       }}
       borderRadius="full"
       {...props}
