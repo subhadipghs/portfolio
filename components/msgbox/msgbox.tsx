@@ -19,23 +19,3 @@ export function MsgBox({ children }: MsgBoxProps) {
     </Container>
   );
 }
-
-// eslint-disable-next-line react/display-name
-export const ForwardReferencedMsgBox = React.forwardRef<
-  HTMLDivElement,
-  MsgBoxProps
->((props, ref) => {
-  return (
-    <Container
-      bg="secondary"
-      borderRadius="md"
-      width="90%"
-      mt={3}
-      p={3}
-      ref={ref}
-      textAlign="center"
-    >
-      {props.children}
-    </Container>
-  );
-});
