@@ -32,14 +32,21 @@ export function TitleSection() {
       sm: "left",
       md: "center",
     },
+    display: "flex",
+    justifyContent: {
+      sm: "flex-start",
+      md: "center",
+    },
   };
 
   return (
     <motion.div
       initial={animation.rightToLeft.initial}
       animate={animation.rightToLeft.animate}
+      style={{ width: "100%" }}
     >
       <Stack
+        maxWidth={672}
         as="section"
         direction={["column", "row"]}
         align={["initial", "center"]}
@@ -47,7 +54,14 @@ export function TitleSection() {
         id="main-content"
         mt={[0, 3, 8, 12]}
       >
-        <Box textAlign={respBox.ta} m={3} p={3}>
+        <Box
+          textAlign={respBox.ta}
+          display={respBox.display}
+          justifyContent={respBox.justifyContent}
+          flexDirection="column"
+          m={3}
+          p={3}
+        >
           <Heading>Subhadip Ghosh</Heading>
           <Breadcrumb>
             <BreadcrumbItem>

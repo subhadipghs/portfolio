@@ -33,9 +33,6 @@ function Navbar() {
           <GridItem colSpan={2}>
             <FaIcon name="bars" fs="1.2rem" color="secondary" />
           </GridItem>
-          <GridItem colStart={4} colEnd={6}>
-            <FaIcon name="moon" fs="1.2rem" color="secondary" />
-          </GridItem>
         </Grid>
       </Box>
     </Box>

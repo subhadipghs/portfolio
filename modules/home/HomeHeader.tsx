@@ -8,7 +8,7 @@ export function HomeHeader() {
     <Header>
       <MobileNavbar />
       <AnimatedMsgBox whileTap={{ scale: 0.9 }}>
-        Hello I&apos;m a T-shaped developer, from <Bold text="India" /> 👋
+        Hello I&apos;m a Fullstack developer, from <Bold text="India" /> 👋
       </AnimatedMsgBox>
     </Header>
   );
