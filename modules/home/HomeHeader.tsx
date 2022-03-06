@@ -1,5 +1,5 @@
-import { Bold } from "@/components/bold/Bold";
-import { Header } from "@/components/header/Header";
+import { Bold } from "@/components/bold/bold";
+import { Header } from "@/components/header/header";
 import { AnimatedMsgBox } from "@/components/msgbox/AnimatedMsgBox";
 import { MobileNavbar } from "@/components/navbar-ui/MobileNavbar";
 

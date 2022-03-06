@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
-import { Bold } from "@/components/bold/Bold";
+import { Bold } from "@/components/bold/bold";
 import React from "react";
 
 export function TechStacks() {
