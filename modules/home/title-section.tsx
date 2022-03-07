@@ -7,7 +7,7 @@ import { Box, Heading, Stack } from "@chakra-ui/layout";
 import { motion, MotionProps } from "framer-motion";
 // @ts-ignore
 import { ResponsiveValue } from "@chakra-ui/styled-system";
-import { RoundedImage } from "@/components/image/RoundedImage";
+import { RoundedImage } from "@/components/image/rounded";
 
 export function TitleSection() {
   // framer motion animation for right to left transition

@@ -1,9 +1,9 @@
 import { Box, Container } from "@chakra-ui/layout";
 import React from "react";
-import { BioSection } from "./BioSection";
-import { HomeHeader } from "./HomeHeader";
-import { TechStacks } from "./TechStackSection";
-import { TitleSection } from "./TitleSection";
+import { BioSection } from "./bio-section";
+import { HomeHeader } from "./home-header";
+import { TechStacks } from "./tech-stack";
+import { TitleSection } from "./title-section";
 
 export function HomeModule() {
   return (

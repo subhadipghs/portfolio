@@ -1,3 +1,3 @@
-import { HomeModule } from "@/modules/home/HomePage";
+import { HomeModule } from "@/modules/home/page";
 
 export default HomeModule;
