@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Flex, Grid, GridItem } from "@chakra-ui/layout";
-import { RoundedImage } from "../image/RoundedImage";
-import { FaIcon } from "../icon/FaIcon";
+import { RoundedImage } from "../image/rounded";
+import { FaIcon } from "../icon/fa-icon";
 
 export function MobileNavbar() {
   return <Navbar />;

@@ -1,7 +1,7 @@
 import { Merge } from "@/utilities/types";
 import { HTMLMotionProps, motion } from "framer-motion";
 import React from "react";
-import { MsgBox } from "./msgbox";
+import { MsgBox } from "./box";
 
 type AnimatedMsgBoxProps = Merge<
   React.PropsWithChildren<{}>,
